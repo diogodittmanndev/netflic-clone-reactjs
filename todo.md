@@ -1,0 +1,3 @@
+- Criar Projeto [x]
+- Criar conta na API [x]
+- 
