@@ -1,3 +1,6 @@
-- Criar Projeto [x]
-- Criar conta na API [x]
-- 
+-   Criar Projeto [x]
+-   Criar conta na API [x]
+-   Criar API KEY do TMDB [x]
+-   Testar requisição [x]
+-   Configurar TMDB Config [x]
+-   Criar as funções para retornar os filtros dos filmes [x]
