@@ -1,5 +1,9 @@
 import { useEffect, useState } from "react";
 import TMDBConfig from "../../tmdbApiConfig/TMDBConfig";
+import { MovieRow } from "../../components/MovieRow";
+
+//Import Style
+import * as Styled from "./styles";
 
 export const HomePage = () => {
     const [movieList, setMovieList] = useState([]);
@@ -14,5 +18,13 @@ export const HomePage = () => {
         loadFilmLists();
     }, []);
 
-    return <h1>HomePage</h1>;
+    return (
+        <div className="wrapped__container">
+            <Styled.SectionMovieList className="movieLists">
+                {movieList.map((item, key) => (
+                    <MovieRow key={key} title={item.title} items={item.items} />
+                ))}
+            </Styled.SectionMovieList>
+        </div>
+    );
 };

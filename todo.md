@@ -4,3 +4,6 @@
 -   Testar requisição [x]
 -   Configurar TMDB Config [x]
 -   Criar as funções para retornar os filtros dos filmes [x]
+-   Setar em um UseState a lista retornada de filmes [x]
+-   Trazer as imagens utilizando o map e concatenando com o endereço [x]
+-   Formatar Linha dos poster de filmes []
