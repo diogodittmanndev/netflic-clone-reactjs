@@ -70,4 +70,27 @@ export default {
             },
         ];
     },
+
+    getMovieInfo: async (movieId, type) => {
+        let typeInfo = {};
+
+        if (movieId) {
+            switch (type) {
+                case "movie":
+                    typeInfo = await urlsFetch(
+                        `/movie/${movieId}?language=pt-BR&api_key=${API_KEY}`
+                    );
+                    break;
+                case "tv":
+                    typeInfo = await urlsFetch(
+                        `/tv/${movieId}?language=pt-BR&api_key=${API_KEY}`
+                    );
+                    break;
+                default:
+                    typeInfo = null;
+                    break;
+            }
+        }
+        return typeInfo;
+    },
 };

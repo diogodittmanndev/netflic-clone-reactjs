@@ -4,7 +4,6 @@ import { GlobalStyle } from "./css/GlobalStyles";
 function App() {
     return (
         <>
-            {/* <FeaturedMovie /> */}
             <HomePage />
             <GlobalStyle />
         </>
