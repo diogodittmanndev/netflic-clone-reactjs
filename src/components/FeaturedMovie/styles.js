@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FeaturedMovie = styled.section`
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 90vh;
 `;
 
 export const FeaturedEffectBottom = styled.div`
@@ -19,3 +19,15 @@ export const FeaturedEffectLeft = styled.div`
 `;
 
 export const FeaturedMovieTitle = styled.div``;
+
+export const FeaturedInfo = styled.div``;
+
+export const FeaturedPoints = styled.div``;
+
+export const FeaturedYear = styled.div``;
+
+export const FeaturedSeason = styled.div``;
+
+export const FeaturedDescription = styled.div``;
+
+export const FeaturedGenres = styled.div``;

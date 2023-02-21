@@ -6,4 +6,6 @@
 -   Criar as funções para retornar os filtros dos filmes [x]
 -   Setar em um UseState a lista retornada de filmes [x]
 -   Trazer as imagens utilizando o map e concatenando com o endereço [x]
--   Formatar Linha dos poster de filmes []
+-   Formatar Linha dos poster de filmes [x]
+-   Trabalhar no escurencimento das imagens dos posteres inciais [x]
+-   Trazer o título, ano, número de temporadas e a descrição para o poster em destaque []
